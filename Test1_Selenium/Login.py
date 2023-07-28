@@ -2,6 +2,8 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+# First commit
+
 driver = webdriver.Chrome()
 driver.get('http://dosmartqa.stagsoftware.net:3009/login')
 
