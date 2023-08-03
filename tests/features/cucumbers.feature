@@ -15,7 +15,7 @@ Feature: Cucumber Basket
       | initial | some | total |
       | 0       | 3    | 3     |
       | 2       | 4    | 6     |
-#      | 5       | 5    | 10    |
+      | 5       | 5    | 10    |
 
 
   @remove
