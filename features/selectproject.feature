@@ -1,7 +1,7 @@
 Feature: project page
 
-  Background:
-    Given I am logged in to SmartQA with username "HARIKA" and password "Harika@97"
+#  Background:
+#    Given I am logged in to SmartQA with username "HARIKA" and password "Harika@97"
 
   Scenario Outline: Perform some action after login
     Given I am on the dropdown page

@@ -7,19 +7,19 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-@given('I am logged in to SmartQA with username "{username}" and password "{password}"')
-def step_login_to_smartqa(context, username, password):
-    context.driver.get("http://dosmartqa.stagsoftware.net:3009/")
-    # username_field = context.driver.find_element(By.ID, "email")
-    # password_field = context.driver.find_element(By.ID, "password")
-    # login_button = context.driver.find_element(By.ID, "login-form-submit")
-    # username_field.send_keys(username)
-    # password_field.send_keys(password)
-    # login_button.click()
+# @given('I am logged in to SmartQA with username "{username}" and password "{password}"')
+# def step_login_to_smartqa(context, username, password):
+#     context.driver.get("http://dosmartqa.stagsoftware.net:3009/")
+#     # username_field = context.driver.find_element(By.ID, "email")
+#     # password_field = context.driver.find_element(By.ID, "password")
+#     # login_button = context.driver.find_element(By.ID, "login-form-submit")
+#     # username_field.send_keys(username)
+#     # password_field.send_keys(password)
+#     # login_button.click()
 
 @given('I am on the dropdown page')
 def step_impl(context):
-    context.driver = webdriver.Chrome()
+    # context.driver = webdriver.Chrome()
     context.driver.get("http://dosmartqa.stagsoftware.net:3009/main/projectselect")
     time.sleep(5)
 
